@@ -807,7 +807,7 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 540, 140, 5, 200);
             g.FillRectangle(blueBrush, 450, 45, 240, 5);
             g.FillRectangle(blueBrush, 540, 140, 145, 5);
-            g.DrawString("Pacman", drawFont, yellowBrush, 50, 150);
+            g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:70", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 115, 87, 15, 15);
             g.FillEllipse(yellowBrush, 200, 87, 15, 15);
