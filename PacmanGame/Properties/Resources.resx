@@ -121,6 +121,9 @@
   <data name="pacman_beginning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacman_beginning.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pacman_change" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman_change.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="pacman_chomp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacman_chomp.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -129,5 +132,8 @@
   </data>
   <data name="pacman_intermission" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacman_intermission.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pacman_munch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pacman_Waka_Waka.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

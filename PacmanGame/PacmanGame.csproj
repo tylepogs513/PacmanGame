@@ -92,5 +92,11 @@
   <ItemGroup>
     <None Include="Resources\pacman_intermission.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_change.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman_Waka_Waka.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

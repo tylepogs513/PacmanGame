@@ -72,6 +72,15 @@ namespace PacmanGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pacman_change {
+            get {
+                return ResourceManager.GetStream("pacman_change", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream pacman_chomp {
             get {
                 return ResourceManager.GetStream("pacman_chomp", resourceCulture);
@@ -93,6 +102,15 @@ namespace PacmanGame.Properties {
         internal static System.IO.UnmanagedMemoryStream pacman_intermission {
             get {
                 return ResourceManager.GetStream("pacman_intermission", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pacman_munch {
+            get {
+                return ResourceManager.GetStream("pacman_munch", resourceCulture);
             }
         }
     }

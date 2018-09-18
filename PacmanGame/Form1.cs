@@ -39,10 +39,11 @@ namespace PacmanGame
             Font drawFont2 = new Font("Franklin Gothic Medium", 20, FontStyle.Bold);
             Font drawFont3 = new Font("Franklin Gothic Medium", 100, FontStyle.Bold);
             Font drawFont4 = new Font("Franklin Gothic Medium", 30, FontStyle.Bold);
-            SoundPlayer chompPlayer = new SoundPlayer(Properties.Resources.pacman_chomp);
+            SoundPlayer chompPlayer = new SoundPlayer(Properties.Resources.pacman_munch);
             SoundPlayer beginPlayer = new SoundPlayer(Properties.Resources.pacman_beginning);
             SoundPlayer deathPlayer = new SoundPlayer(Properties.Resources.pacman_death);
             SoundPlayer interPlayer = new SoundPlayer(Properties.Resources.pacman_intermission);
+            SoundPlayer levelPlayer = new SoundPlayer(Properties.Resources.pacman_change);
 
             //when the button gets pushed hide load screen
             playButton.Visible = false;
@@ -94,7 +95,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 50, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 50, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -124,7 +125,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 75, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 75, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -153,7 +154,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 100, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 100, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -182,7 +183,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 125, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 125, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -210,7 +211,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 150, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 150, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -239,7 +240,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 175, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 175, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -267,7 +268,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 200, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 200, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -295,7 +296,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 225, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 225, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -322,7 +323,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 250, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 250, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -349,7 +350,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 275, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 275, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -375,7 +376,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 300, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 300, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -402,7 +403,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 325, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 325, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -428,7 +429,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 350, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 350, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -454,7 +455,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 375, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 375, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -479,7 +480,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 400, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 400, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -505,7 +506,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 50, 75, 75, 30, 360);
             g.DrawPie(drawPen, 418, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -530,7 +531,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 50, 75, 75, 120, 290);
             g.DrawPie(drawPen, 418, 50, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -556,7 +557,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 75, 75, 75, 120, 360);
             g.DrawPie(drawPen, 418, 75, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -581,7 +582,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 100, 75, 75, 120, 290);
             g.DrawPie(drawPen, 418, 100, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -606,7 +607,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 125, 75, 75, 120, 360);
             g.DrawPie(drawPen, 418, 125, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -630,7 +631,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 150, 75, 75, 120, 290);
             g.DrawPie(drawPen, 418, 150, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -654,7 +655,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 175, 75, 75, 120, 360);
             g.DrawPie(drawPen, 418, 175, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -677,7 +678,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 200, 75, 75, 120, 290);
             g.DrawPie(drawPen, 418, 200, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -701,7 +702,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 225, 75, 75, 120, 360);
             g.DrawPie(drawPen, 418, 225, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
         
             g.Clear(Color.Black);
 
@@ -724,7 +725,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 250, 75, 75, 120, 290);
             g.DrawPie(drawPen, 418, 250, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -747,7 +748,7 @@ namespace PacmanGame
             //draw pacman
             g.FillPie(yellowBrush, 418, 275, 75, 75, 120, 360);
             g.DrawPie(drawPen, 418, 275, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -773,8 +774,8 @@ namespace PacmanGame
             g.Clear(Color.Black);
             g.DrawString("Level", drawFont3, whiteBrush, 200, 100);
             g.DrawString("Complete", drawFont3, whiteBrush, 100, 200);
-            interPlayer.Play();
-            Thread.Sleep(6000);
+            levelPlayer.Play();
+            Thread.Sleep(2300);
             g.Clear(Color.Black);
 
             g.DrawString("Level 2", drawFont3, redBrush, 200, 150);
@@ -803,10 +804,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:70", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 115, 87, 15, 15);
@@ -825,7 +826,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 50, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 50, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -836,10 +837,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:80", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 200, 87, 15, 15);
@@ -856,7 +857,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 75, 50, 75, 75, 0, 360);
             g.DrawPie(drawPen, 75, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -867,10 +868,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:80", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 200, 87, 15, 15);
@@ -888,7 +889,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 100, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 100, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -899,10 +900,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:80", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 200, 87, 15, 15);
@@ -919,7 +920,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 125, 50, 75, 75, 0, 360);
             g.DrawPie(drawPen, 125, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
             //walls
@@ -929,10 +930,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:80", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 200, 87, 15, 15);
@@ -950,7 +951,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 150, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 150, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -961,10 +962,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:90", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 87, 15, 15);
@@ -980,7 +981,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 175, 50, 75, 75, 0, 360);
             g.DrawPie(drawPen, 175, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -991,10 +992,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:90", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 87, 15, 15);
@@ -1010,7 +1011,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 200, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 200, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1021,10 +1022,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 87, 15, 15);
@@ -1041,7 +1042,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 225, 50, 75, 75, 0, 360);
             g.DrawPie(drawPen, 225, 50, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
             //walls
@@ -1051,10 +1052,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 172, 15, 15);
@@ -1069,7 +1070,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 250, 50, 75, 75, 30, 290);
             g.DrawPie(drawPen, 250, 50, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1080,10 +1081,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 172, 15, 15);
@@ -1099,7 +1100,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 50, 75, 75, 90, 360);
             g.DrawPie(drawPen, 255, 50, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1110,10 +1111,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 172, 15, 15);
@@ -1128,7 +1129,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 75, 75, 75, 120, 290);
             g.DrawPie(drawPen, 255, 75, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1139,10 +1140,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 172, 15, 15);
@@ -1158,7 +1159,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 100, 75, 75, 90, 360);
             g.DrawPie(drawPen, 255, 100, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1169,10 +1170,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:100", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 172, 15, 15);
@@ -1187,7 +1188,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 125, 75, 75, 120, 290);
             g.DrawPie(drawPen, 255, 125, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1198,10 +1199,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:110", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 257, 15, 15);
@@ -1216,7 +1217,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 150, 75, 75, 90, 360);
             g.DrawPie(drawPen, 255, 150, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1226,10 +1227,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:110", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 285, 257, 15, 15);
@@ -1243,7 +1244,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 175, 75, 75, 120, 290);
             g.DrawPie(drawPen, 255, 175, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
 
             g.Clear(Color.Black);
 
@@ -1254,10 +1255,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:120", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 347, 280, 15, 15);
@@ -1271,7 +1272,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 200, 75, 75, 90, 360);
             g.DrawPie(drawPen, 255, 200, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1281,10 +1282,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:120", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 347, 280, 15, 15);
@@ -1297,7 +1298,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 225, 75, 75, 120, 290);
             g.DrawPie(drawPen, 255, 225, 75, 75, 120, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1307,10 +1308,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:120", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 347, 280, 15, 15);
@@ -1324,7 +1325,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 255, 250, 75, 75, 90, 360);
             g.DrawPie(drawPen, 255, 250, 75, 75, 90, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1334,10 +1335,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:120", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 347, 280, 15, 15);
@@ -1350,7 +1351,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 280, 255, 75, 75, 30, 290);
             g.DrawPie(drawPen, 280, 255, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1360,10 +1361,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:130", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 347, 280, 15, 15);
@@ -1377,7 +1378,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 305, 255, 75, 75, 0, 360);
             g.DrawPie(drawPen, 305, 255, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1387,10 +1388,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:130", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 432, 280, 15, 15);
@@ -1402,7 +1403,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 330, 255, 75, 75, 30, 290);
             g.DrawPie(drawPen, 330, 255, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1412,10 +1413,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:130", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 432, 280, 15, 15);
@@ -1428,7 +1429,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 355, 255, 75, 75, 0, 360);
             g.DrawPie(drawPen, 355, 255, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1438,10 +1439,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:130", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 432, 280, 15, 15);
@@ -1453,7 +1454,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 380, 255, 75, 75, 30, 290);
             g.DrawPie(drawPen, 380, 255, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1463,10 +1464,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:140", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 432, 280, 15, 15);
@@ -1479,7 +1480,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 405, 255, 75, 75, 0, 360);
             g.DrawPie(drawPen, 405, 255, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1489,10 +1490,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:140", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 432, 280, 15, 15);
@@ -1504,7 +1505,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 430, 255, 75, 75, 30, 290);
             g.DrawPie(drawPen, 430, 255, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1514,10 +1515,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:140", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 243, 15, 15);
@@ -1528,7 +1529,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 455, 255, 75, 75, 0, 360);
             g.DrawPie(drawPen, 455, 255, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1538,10 +1539,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:140", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 243, 15, 15);
@@ -1552,7 +1553,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 230, 75, 75, 300, 290);
             g.DrawPie(drawPen, 460, 230, 75, 75, 300, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1562,10 +1563,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:150", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 243, 15, 15);
@@ -1577,7 +1578,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 205, 75, 75, 300, 360);
             g.DrawPie(drawPen, 460, 205, 75, 75, 270, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1587,10 +1588,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:150", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 158, 15, 15);
@@ -1600,7 +1601,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 180, 75, 75, 300, 290);
             g.DrawPie(drawPen, 460, 180, 75, 75, 300, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1610,10 +1611,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:160", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 158, 15, 15);
@@ -1624,7 +1625,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 155, 75, 75, 300, 360);
             g.DrawPie(drawPen, 460, 155, 75, 75, 270, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1634,10 +1635,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:160", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 158, 15, 15);
@@ -1647,7 +1648,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 130, 75, 75, 300, 290);
             g.DrawPie(drawPen, 460, 130, 75, 75, 300, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1657,10 +1658,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 250, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:160", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 480, 158, 15, 15);
@@ -1671,7 +1672,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 105, 75, 75, 300, 360);
             g.DrawPie(drawPen, 460, 105, 75, 75, 270, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1681,10 +1682,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:160", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 492, 85, 15, 15);
@@ -1693,7 +1694,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 80, 75, 75, 300, 290);
             g.DrawPie(drawPen, 460, 80, 75, 75, 300, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1703,10 +1704,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:170", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 577, 85, 15, 15);
@@ -1715,7 +1716,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 460, 55, 75, 75, 300, 360);
             g.DrawPie(drawPen, 460, 55, 75, 75, 270, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1725,10 +1726,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:170", drawFont2, whiteBrush, 50, 200);
             g.FillEllipse(yellowBrush, 577, 85, 15, 15);
@@ -1736,7 +1737,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 485, 55, 75, 75, 30, 290);
             g.DrawPie(drawPen, 485, 55, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1746,10 +1747,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:180", drawFont2, whiteBrush, 50, 200);
             chompPlayer.Play();
@@ -1757,7 +1758,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 510, 55, 75, 75, 0, 360);
             g.DrawPie(drawPen, 510, 55, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1767,17 +1768,17 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:180", drawFont2, whiteBrush, 50, 200);
 
             //pacman
             g.FillPie(yellowBrush, 535, 55, 75, 75, 30, 290);
             g.DrawPie(drawPen, 535, 55, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1787,10 +1788,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:180", drawFont2, whiteBrush, 50, 200);
             chompPlayer.Play();
@@ -1798,7 +1799,7 @@ namespace PacmanGame
             //pacman
             g.FillPie(yellowBrush, 560, 55, 75, 75, 0, 360);
             g.DrawPie(drawPen, 560, 55, 75, 75, 0, 360);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1808,17 +1809,17 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:180", drawFont2, whiteBrush, 50, 200);
 
             //pacman
             g.FillPie(yellowBrush, 585, 55, 75, 75, 30, 290);
             g.DrawPie(drawPen, 585, 55, 75, 75, 30, 290);
-            Thread.Sleep(350);
+            Thread.Sleep(300);
             g.Clear(Color.Black);
 
             //walls
@@ -1828,10 +1829,10 @@ namespace PacmanGame
             g.FillRectangle(blueBrush, 240, 135, 5, 200);
             g.FillRectangle(blueBrush, 340, 240, 110, 5);
             g.FillRectangle(blueBrush, 240, 335, 300, 5);
-            g.FillRectangle(blueBrush, 450, 45, 5, 200);
-            g.FillRectangle(blueBrush, 540, 140, 5, 200);
-            g.FillRectangle(blueBrush, 450, 45, 240, 5);
-            g.FillRectangle(blueBrush, 540, 140, 145, 5);
+            g.FillRectangle(blueBrush, 450, 40, 5, 200);
+            g.FillRectangle(blueBrush, 540, 135, 5, 200);
+            g.FillRectangle(blueBrush, 450, 40, 240, 5);
+            g.FillRectangle(blueBrush, 540, 135, 150, 5);
             g.DrawString("Pacman", drawFont4, yellowBrush, 50, 150);
             g.DrawString("Score:180", drawFont2, whiteBrush, 50, 200);
             chompPlayer.Play();
