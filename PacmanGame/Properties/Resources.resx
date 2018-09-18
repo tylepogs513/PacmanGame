@@ -130,6 +130,12 @@
   <data name="pacman_death" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacman_death.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pacman_eating_ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman_eating_ghost.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pacman_extrapac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman_extrapac.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="pacman_intermission" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacman_intermission.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
